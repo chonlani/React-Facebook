@@ -23,6 +23,8 @@
     padding: 8px 10px;
 
 }
-.RightBody .rowInright:nth-child(3) .firstinput{
-    width: 195px;
+.RightBody .rowInright:nth-child(3) .firstinput,
+.RightBody .rowInright:nth-child(3) .firstinput input{
+    width: 194px;
+    display: inline-block;
 }

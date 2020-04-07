@@ -12,13 +12,17 @@ export default class RightBody extends Component {
             <Row className="rowInright">ง่ายและเร็ว</Row>
 
             <Row className="rowInright">
-               <Col span={24} className="firstinput">
-                   <Row span={12}><input type="text" placeholder="ชื่อ"/></Row>
-                   <Row span={12}><input type="text" placeholder="นามสกุล"/></Row>
+               <Col>
+                   <Row className="firstinput inputRight one">
+                       <input type="text" placeholder="ชื่อ"/>
+                    </Row>
+                   <Row className="firstinput">
+                       <input type="text" placeholder="นามสกุล"/>
+                    </Row>
                </Col>
-               <Col span={24}><input type="text" placeholder="หมายเลขโทรศัพท์มือถือหรืออีเมลล์"/></Col>
-               <Col span={24}><input type="text" placeholder="รหัสผ่านใหม่"/></Col>
-               <Col span={24}></Col>
+               <Col span={24} className="inputRight"><input type="text" placeholder="หมายเลขโทรศัพท์มือถือหรืออีเมลล์"/></Col>
+               <Col span={24} className="inputRight"><input type="text" placeholder="รหัสผ่านใหม่"/></Col>
+               <Col span={24} className="inputRight"></Col>
             </Row>
                 
             </Col>
