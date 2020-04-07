@@ -1,0 +1,10 @@
+.mainBody {
+    margin: auto;
+    width: 980px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fullBody {
+    background-color: #e9ebee;
+}

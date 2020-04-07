@@ -1,0 +1,50 @@
+.Navbar {
+ height: 83px;
+ width: 100%;
+ background-color: #3b5998;
+}
+.top {
+    width: 980px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+.top table td input {
+    width: 142px;
+    height: 20px;
+    border: 1px solid #1d2a5b;
+    border-radius: 0;
+    margin: 0;
+    padding: 3px 2px 2px;
+    border-color: #1d2a5b;
+    font-size: 14px;
+    cursor: text;
+}
+.top table td {
+    padding-left: 14px;
+}
+.top table tr:nth-child(1) {
+    font-weight: normal;
+    color: #ffffff;
+    padding-left: 1px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: inherit;
+}
+.top table tr:nth-child(3) {
+    color: #9cb4d8;
+    font-weight: normal;
+}
+.top table tr:nth-child(2) button {
+    font-weight: bolder;
+    color: #ffffff;
+    border: 1px solid #29487d;
+    border-color: #29487d;
+    background-color: #4267b2;
+}
+.top table tr:nth-child(2) button:hover {
+    cursor: pointer;
+    background-color: #3b5998;
+    border-color: #29487d;
+}
