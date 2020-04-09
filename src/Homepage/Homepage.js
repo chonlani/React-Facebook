@@ -11,7 +11,7 @@ export default class Homepage extends Component {
     render() {
         return (
             <Col>
-                <Row span={24}><NavHome/></Row>
+                <Row span={24} className="navHome"><NavHome/></Row>
                 <Row span={24}></Row>
                     <Col><Left/></Col>
                     <Col><Center/></Col>
