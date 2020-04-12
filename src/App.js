@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Switch, Route} from 'react-router-dom'
 import LoginPage from './login/LoginPage'
+import HomePage from './Homepage/Homepage'
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
     </div>
     
      </Route>
-      <Route path='/home'></Route>
+      <Route path='/home'><HomePage/></Route>
       <Route path='/login'><LoginPage/></Route>
     </Switch>
   );
